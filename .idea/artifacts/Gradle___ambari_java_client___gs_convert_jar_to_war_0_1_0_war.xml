@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : ambari-java-client : gs-convert-jar-to-war-0.1.0.war">
+    <output-path>$PROJECT_DIR$/out/artifacts/ambari-java-client</output-path>
+    <root id="archive" name="gs-convert-jar-to-war-0.1.0.war">
+      <element id="javaee-facet-resources" facet="ambari-java-client/web/Web Gradle : gs-convert-jar-to-war-0.1.0.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ambari-java-client" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: guava-17.0" />
+          <element id="library" level="project" name="Gradle: retrofit-1.6.0" />
+          <element id="library" level="project" name="Gradle: commons-io-2.4" />
+          <element id="library" level="project" name="Gradle: gson-2.2.4" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/ambari-java-client/exploded/gs-convert-jar-to-war-0.1.0.war/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
