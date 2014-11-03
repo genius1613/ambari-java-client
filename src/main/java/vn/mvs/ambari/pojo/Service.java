@@ -2,8 +2,7 @@ package vn.mvs.ambari.pojo;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
-import vn.mvs.ambari.pojo.common.Alerts;
-import vn.mvs.ambari.pojo.common.ServiceInfo;
+import vn.mvs.ambari.pojo.base.Alerts;
 import vn.mvs.ambari.pojo.base.ServiceComponent;
 
 /**
@@ -50,6 +49,14 @@ public class Service {
     }
 
     public void setComponents(ServiceComponent[] components) {
+
         this.components = components;
+    }
+
+    public class ServiceInfo {
+        private String cluster_name;
+        private String maintenace_state;
+        private String service_name;
+        private String state;
     }
 }

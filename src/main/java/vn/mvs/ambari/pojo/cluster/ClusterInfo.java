@@ -1,13 +1,15 @@
 package vn.mvs.ambari.pojo.cluster;
 
 import com.google.gson.annotations.SerializedName;
-import vn.mvs.ambari.pojo.common.*;
+import vn.mvs.ambari.pojo.base.Alerts;
 import vn.mvs.ambari.pojo.Service;
+import vn.mvs.ambari.pojo.base.*;
+
 /**
  * Created by tienbm on 09/10/2014.
  */
 public class ClusterInfo {
-    private Requests[] requests;
+    private Request[] requests;
 
     @SerializedName("services")
     private Service[] services;
@@ -26,11 +28,11 @@ public class ClusterInfo {
 
     private String href;
 
-    public Requests[] getRequests() {
+    public Request[] getRequests() {
         return requests;
     }
 
-    public void setRequests(Requests[] requests) {
+    public void setRequests(Request[] requests) {
         this.requests = requests;
     }
 

@@ -1,7 +1,5 @@
 package vn.mvs.ambari.pojo.base;
 
-import vn.mvs.ambari.pojo.common.Actual_configs;
-
 /**
  * Created by tienbm on 25/09/2014.
  */

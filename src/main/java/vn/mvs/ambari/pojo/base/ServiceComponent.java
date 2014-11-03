@@ -6,7 +6,7 @@ package vn.mvs.ambari.pojo.base;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
-import vn.mvs.ambari.pojo.common.Metrics;
+import vn.mvs.ambari.pojo.base.metrics.Metrics;
 
 /**
  *
